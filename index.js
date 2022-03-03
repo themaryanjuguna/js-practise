@@ -1,14 +1,15 @@
 // // document.getElementById("count-el").innerText = 10
 // //store data
 
-let bonusPoint = 50
-console.log(bonusPoint)
+let countEL = document.getElementById("count-el")
 
-bonusPoint =bonusPoint+50
-console.log(bonusPoint)
+console.log(countEL)
 
-bonusPoint = bonusPoint- 75
-console.log(bonusPoint)
+let count = 0
 
-bonusPoint = bonusPoint + 45
-console.log(bonusPoint)
+function increment() {
+    count = count + 1
+    countEL.innerText = count
+} 
+
+increment()
