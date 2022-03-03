@@ -1,3 +1,6 @@
+// // document.getElementById("count-el").innerText = 10
+// //store data
+
 // function logout(){
 //     console.log(42)
 // }
@@ -29,5 +32,7 @@
 
 // console.log(lapsCompleted)
 ////
+
+
 
 
