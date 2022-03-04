@@ -14,11 +14,14 @@
             <span id="num1-el"></span>
             <span id="num2-el"></span>
             <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom"></div>
-            <button type="button" class="btn btn-outline-success">Add</button>
-            <button type="button" class="btn btn-outline-danger">Subtract</button>
-            <button type="button" class="btn btn-outline-warning">Divide</button>
-            <button type="button" class="btn btn-outline-info">Multiply</button>
-            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"></div>
+            <div class="btn-group-vertical">
+
+                <button onclick="add()" type="button" class="btn btn-outline-success">Add</button>
+                <button onclick="subtract()" type="button" class="btn btn-outline-danger">Subtract</button>
+                <button onclick="divide()" type="button" class="btn btn-outline-warning">Divide</button>
+                <button onclick="multiply()" type="button" class="btn btn-outline-info">Multiply</button>
+            </div>
+                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"></div>
             <span id="sum-el">Sum: </span>
         </div>
 <script src="js/calc.js"></script>
